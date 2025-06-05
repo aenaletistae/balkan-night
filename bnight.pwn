@@ -28599,7 +28599,7 @@ public OnDialogResponse( playerid, dialogid, response, listitem, inputtext[])
 		else
 		{
 		    new age = strval( inputtext );
-			if( age < 12 || age > 70 ) return ShowPlayerDialog( playerid, dialog_AGE, DIALOG_STYLE_INPUT, "{FFFFFF}Godine:", "{FFFFFF}* U prazni prostor ispod unesite vaÅ¡e godine.\nMinimalno 12, maximalno 70:", "Unos", "Izadji" );
+			if( age < 12 || age > 70 ) return ShowPlayerDialog( playerid, dialog_AGE, DIALOG_STYLE_INPUT, "{FFFFFF}Godine:", "{FFFFFF}* U prazni prostor ispod unesite vaÃ…Â¡e godine.\nMinimalno 12, maximalno 70:", "Unos", "Izadji" );
 			PlayerInfo[ playerid ][ xGodine ] = age;
 			InputAge[ playerid ] = age;
 		    SelectTextDraw( playerid, 0xFAA220FF );
